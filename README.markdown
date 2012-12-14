@@ -1,5 +1,16 @@
 # Rack-Analytics #
 
+Senthil Nayagam
+
+this fork I want to use Redis instead of MongoDB 
+
+there would be a seperate background task which will pull the redis task to analytics database
+
+
+just forked it so expect some time before it is functional
+
+
+
 **Rack-Analytics** is a rack middleware that creates a log of all user requests to your application and saves them on a MongoDB database.
 
 All requests are created on a separated thread, so it won't add a lot of overhead on each requests.
